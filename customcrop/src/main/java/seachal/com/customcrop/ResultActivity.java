@@ -87,7 +87,8 @@ public class ResultActivity extends BaseActivity {
         }
         ImageView imageView = findViewById(R.id.iv_crop_result);
 //        imageView.setImageURI(uri);
-        String  result_path = "data/data/seachal.com.customcrop/cache/SampleCropImage.jpg";
+//        String  result_path = "data/data/seachal.com.customcrop/cache/SampleCropImage.jpg";
+        String  result_path = uri.getPath();
         //  glide
         RequestOptions optionsglide = new RequestOptions()
                 .centerCrop()
